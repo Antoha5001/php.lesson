@@ -3,3 +3,5 @@
 18-03-2018 09:05:04@@127.0.0.1@@/less1/1/@@http://lavrik.php:82/less1/@@Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36 OPR/51.0.2830.55
 18-03-2018 12:11:22@@127.0.0.1@@/less1/1/@@http://lavrik.php:82/less1/@@Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36 OPR/51.0.2830.55
 18-03-2018 14:33:40@@127.0.0.1@@/less1/1/@@http://lavrik.php:82/less1/@@Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36 OPR/51.0.2830.55
+20-03-2018 15:55:34@@127.0.0.1@@/less1/1/@@http://lavrik.php:82/less1/@@Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+20-03-2018 15:57:06@@127.0.0.1@@/less1/1/@@http://lavrik.php:82/less1/@@Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
