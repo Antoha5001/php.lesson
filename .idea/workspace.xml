@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0779eca-7e20-4953-8a29-8843eb1e4c65" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/less1/1/4/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/less1/blog/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less1/1/4/data/aaa" beforeDir="false" afterPath="$PROJECT_DIR$/less1/1/4/data/aaa" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less1/1/4/data/ccc" beforeDir="false" afterPath="$PROJECT_DIR$/less1/1/4/data/ccc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less1/1/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/less1/1/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less1/1/4/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/less1/blog/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less1/1/4/data/aaa" beforeDir="false" afterPath="$PROJECT_DIR$/less1/blog/data/aaa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less1/1/4/data/ccc" beforeDir="false" afterPath="$PROJECT_DIR$/less1/blog/data/ccc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less1/1/4/data/monye" beforeDir="false" afterPath="$PROJECT_DIR$/less1/blog/data/monye" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less1/1/4/data/php" beforeDir="false" afterPath="$PROJECT_DIR$/less1/blog/data/php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less1/1/4/data/way" beforeDir="false" afterPath="$PROJECT_DIR$/less1/blog/data/way" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less1/1/4/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/less1/blog/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less1/1/4/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/less1/blog/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less1/1/4/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/less1/blog/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less1/1/4/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/less1/blog/post.php" afterDir="false" />
     </list>
     <ignored mask="rest-client.private.env.json" />
     <ignored mask="http-client.private.env.json" />
@@ -26,43 +33,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less1/2/auth2/login.php">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/less1/blog/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            <state relative-caret-position="442">
+              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less1/2/auth/main.php">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less1/blog/edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="497">
+              <caret line="62" column="4" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="63" selection-end-column="34" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less1/1/4/add.php">
+        <entry file="file://$PROJECT_DIR$/less1/blog/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            <state relative-caret-position="565">
+              <caret line="58" selection-start-line="58" selection-end-line="58" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less1/1/4/index.php">
+        <entry file="file://$PROJECT_DIR$/less1/blog/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/less1/1/4/edit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="582">
+              <caret line="37" column="2" lean-forward="true" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -88,6 +90,10 @@
         <option value="$PROJECT_DIR$/less1/2/auth2/main.php" />
         <option value="$PROJECT_DIR$/less1/2/auth2/login.php" />
         <option value="$PROJECT_DIR$/less1/1/4/edit.php" />
+        <option value="$PROJECT_DIR$/less1/blog/index.php" />
+        <option value="$PROJECT_DIR$/less1/blog/edit.php" />
+        <option value="$PROJECT_DIR$/less1/blog/add.php" />
+        <option value="$PROJECT_DIR$/less1/blog/login.php" />
       </list>
     </option>
   </component>
@@ -111,6 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,22 +140,25 @@
               <item name="lavrik.php" type="b2602c69:ProjectViewProjectNode" />
               <item name="lavrik.php" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="less1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="4" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="2" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="lavrik.php" type="b2602c69:ProjectViewProjectNode" />
               <item name="lavrik.php" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="less1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="4" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="data" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="auth2" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="lavrik.php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lavrik.php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="less1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -160,15 +170,16 @@
     <property name="settings.editor.selected.configurable" value="database.data.csv.formats" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\OpenServer2\OSPanel\domains\lavrik.php\less1\1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\OpenServer2\OpenServer\domains\lavrik.php\less1\1\4" />
       <recent name="C:\OpenServer2\OSPanel\domains\lavrik.php\less1\2\auth2" />
       <recent name="C:\OpenServer2\OSPanel\domains\lavrik.php\less1\2\form2" />
       <recent name="C:\OpenServer2\OSPanel\domains\lavrik.php\less1\2" />
       <recent name="C:\OpenServer2\OSPanel\domains\lavrik.php\less1\1\4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OpenServer2\OpenServer\domains\lavrik.php\less1" />
+      <recent name="C:\OpenServer2\OSPanel\domains\lavrik.php\less1\1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -198,27 +209,28 @@
       <workItem from="1521347531979" duration="3757000" />
       <workItem from="1521358243400" duration="15248000" />
       <workItem from="1521550500079" duration="2048000" />
+      <workItem from="1521708762232" duration="4499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25157000" />
+    <option name="totallyTimeSpent" value="29656000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="101" width="1578" height="869" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20816864" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21080369" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -238,6 +250,34 @@
     <entry file="file://$PROJECT_DIR$/less1/2/auth2/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less1/blog/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less1/blog/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less1/blog/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less1/2/auth2/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
           <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
         </state>
       </provider>
@@ -249,9 +289,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less1/2/auth/main.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/less1/1/file.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -259,18 +296,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less1/1/1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/less1/1/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less1/1/log.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/less1/1/admin.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -321,9 +352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less1/1/log.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/less1/1/file.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -338,17 +366,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less1/1/4/post.php">
+    <entry file="file://$PROJECT_DIR$/less1/blog/post.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less1/1/4/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -380,33 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less1/2/form2/b.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less1/2/auth2/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less1/2/auth/main.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less1/1/4/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less1/1/4/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less1/2/auth2/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -414,10 +408,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less1/1/4/edit.php">
+    <entry file="file://$PROJECT_DIR$/less1/2/auth2/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less1/blog/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less1/blog/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="62" column="4" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="63" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less1/blog/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="58" selection-start-line="58" selection-end-line="58" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less1/blog/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="37" column="2" lean-forward="true" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less1/blog/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
         </state>
       </provider>
     </entry>

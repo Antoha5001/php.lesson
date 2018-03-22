@@ -1,4 +1,8 @@
 <?php
+	session_start();
+	if(($_COOKIE['login'] !== hash("sha256",'admin') && $_COOKIE['password'] !== hash('sha256', 'qwerty'))){
+		header("Location: index.php");
+	}
 include_once("functions.php");
 
 	if(count($_GET) >0){
@@ -56,7 +60,8 @@ include_once("functions.php");
 	<textarea  id="" cols="30" rows="10" name="content"><?php echo $content ?></textarea>
 	<input type="submit" value="Добавить">
 </form>
-
+<br>
+<a href="index.php">На главную</a>
 <?php echo $msg; ?>
 
 

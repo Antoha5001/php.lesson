@@ -1,4 +1,8 @@
 <?php
+	session_start();
+	if(($_COOKIE['login'] !== hash("sha256",'admin') && $_COOKIE['password'] !== hash('sha256', 'qwerty'))){
+		header("Location: index.php");
+	}
 include_once("functions.php");
 
 	if(count($_POST) >0){
@@ -46,5 +50,15 @@ include_once("functions.php");
 </form>
 
 <?php echo $msg; ?>
+
+<?php
+	if($_SESSION['is_auth'] == true || ($_COOKIE['login'] == hash("sha256",'admin') && $_COOKIE['password'] == hash('sha256', 'qwerty'))){
+		echo "
+<a href=\"add.php\">Добавить статью</a>
+<br><a href=\"edit.php\">Правка статей</a>
+<br><a href=\"index.php\">На главную</a>
+<br><a href=\"index.php?logout=1\">Выход</a>";
+	}
+?>
 
 
