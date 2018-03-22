@@ -1,7 +1,9 @@
 <?php
 	session_start();
-	if(($_COOKIE['login'] !== hash("sha256",'admin') && $_COOKIE['password'] !== hash('sha256', 'qwerty'))){
-		header("Location: index.php");
+	if($_SESSION['is_auth'] !== true){
+		if(($_COOKIE['login'] !== hash("sha256",'admin') && $_COOKIE['password'] !== hash('sha256', 'qwerty'))){
+			header("Location: index.php");
+		}
 	}
 include_once("functions.php");
 
