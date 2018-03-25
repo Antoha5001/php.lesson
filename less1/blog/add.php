@@ -1,13 +1,30 @@
 <?php
 	session_start();
 
-	if($_SESSION['is_auth'] !== true){
-	   if(($_COOKIE['login'] !== hash("sha256",'admin') && $_COOKIE['password'] !== hash('sha256', 'qwerty'))){
-		   header("Location: index.php");
-	   }
+//	if($_SESSION['is_auth'] !== true){
+//	   if(($_COOKIE['login'] !== hash("sha256",'admin') && $_COOKIE['password'] !== hash('sha256', 'qwerty'))){
+//		   header("Location: index.php");
+//	   }
+//	}
+	if (count($_GET) > 0) {
+		if ($_GET['logout'] == "1") {
+			unset($_SESSION['is_auth']);
+			setcookie('login', "", time() - 1);
+			setcookie('password', "", time() - 1);
+
+		  header("Location: index.php");
+		  exit();
+		}
 	}
 
-include_once("functions.php");
+	include_once("functions.php");
+	if(!isAuth()){
+		$_SESSION['returnUrl'] = $_SERVER["SCRIPT_NAME"];
+		header("Location: login.php");
+		exit();
+	}
+
+
 
 	if(count($_POST) >0){
 		$title = trim($_POST['title']);
@@ -56,13 +73,23 @@ include_once("functions.php");
 <?php echo $msg; ?>
 
 <?php
-	if($_SESSION['is_auth'] == true || ($_COOKIE['login'] == hash("sha256",'admin') && $_COOKIE['password'] == hash('sha256', 'qwerty'))){
+//	if($_SESSION['is_auth'] == true || ($_COOKIE['login'] == hash("sha256",'admin') && $_COOKIE['password'] == hash('sha256', 'qwerty'))){
+//		echo "
+//<a href=\"add.php\">Добавить статью</a>
+//<br><a href=\"edit.php\">Правка статей</a>
+//<br><a href=\"index.php\">На главную</a>
+//<br><a href=\"index.php?logout=1\">Выход</a>";
+//	}
+	if(isAuth()){
 		echo "
 <a href=\"add.php\">Добавить статью</a>
 <br><a href=\"edit.php\">Правка статей</a>
 <br><a href=\"index.php\">На главную</a>
-<br><a href=\"index.php?logout=1\">Выход</a>";
+<br><a href=\"add.php?logout=1\">Выход</a>";
 	}
+	echo "<pre>";
+	echo print_r($_SERVER);
+	echo "</pre>";
 ?>
 
 
