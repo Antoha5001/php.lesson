@@ -1,4 +1,5 @@
 show databases;
+
 create database lavrik default charset utf8;
 
 use lavrik;
@@ -11,7 +12,7 @@ create table users(
   login varchar(99) not null ,
   password varchar(999) not null,
   primary key (users_id)
-) comment 'Таблица с данными пользователя'
+) comment 'Таблица с данными пользователя';
 
 desc users;
 
