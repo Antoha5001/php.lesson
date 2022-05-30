@@ -1,0 +1,35 @@
+HTTP_HOST : skillboxphp
+HTTP_X_FORWARDED_PROTO : http
+HTTP_X_REAL_IP : 127.0.0.1
+HTTP_USER_AGENT : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0
+HTTP_ACCEPT : text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+HTTP_ACCEPT_LANGUAGE : ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+HTTP_ACCEPT_ENCODING : gzip, deflate
+HTTP_UPGRADE_INSECURE_REQUESTS : 1
+PATH : c:\openserver\modules\php\PHP_8.0\ext;c:\openserver\modules\php\PHP_8.0\pear;c:\openserver\modules\php\PHP_8.0\pear\bin;c:\openserver\modules\php\PHP_8.0;c:\openserver\modules\wget\bin;c:\openserver\modules\http\Apache_2.4-PHP_8.0-8.1+Nginx_1.21\bin;c:\openserver\modules\http\Apache_2.4-PHP_8.0-8.1+Nginx_1.21;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\Wbem;C:\WINDOWS\SysWOW64
+SystemRoot : C:\WINDOWS
+COMSPEC : C:\WINDOWS\system32\cmd.exe
+PATHEXT : .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+WINDIR : C:\WINDOWS
+SERVER_SIGNATURE : 
+SERVER_SOFTWARE : Apache
+SERVER_NAME : skillboxphp
+SERVER_ADDR : 127.0.0.1
+SERVER_PORT : 80
+REMOTE_ADDR : 127.0.0.1
+DOCUMENT_ROOT : C:/OpenServer/domains/skillboxphp
+REQUEST_SCHEME : http
+CONTEXT_PREFIX : 
+CONTEXT_DOCUMENT_ROOT : C:/OpenServer/domains/skillboxphp
+SERVER_ADMIN : [no address given]
+SCRIPT_FILENAME : C:/OpenServer/domains/skillboxphp/temp.php
+REMOTE_PORT : 49987
+GATEWAY_INTERFACE : CGI/1.1
+SERVER_PROTOCOL : HTTP/1.1
+REQUEST_METHOD : GET
+QUERY_STRING : 
+REQUEST_URI : /temp.php
+SCRIPT_NAME : /temp.php
+PHP_SELF : /temp.php
+REQUEST_TIME_FLOAT : 1652958551.5485
+REQUEST_TIME : 1652958551

@@ -1,0 +1,12 @@
+ERROR - Not exists 2022-12-14
+OK - All good 2022-12-17
+WARNING - Indefine variable 2023-01-01
+ERROR - Not exists 2022-12-14
+OK - All good 2022-12-17
+WARNING - Indefine variable 2023-01-01
+ERROR - Not exists 2022-12-14
+OK - All good 2022-12-17
+WARNING - Indefine variable 2023-01-01
+ERROR - Not exists 2022-12-14
+OK - All good 2022-12-17
+WARNING - Indefine variable 2023-01-01
