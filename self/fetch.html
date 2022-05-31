@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en"><head>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>The HTML5 Herald</title>
+<meta name="description" content="The HTML5 Herald">
+<meta name="author" content="SitePoint">
+
+<link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+	1234
+	<script>
+		// var body = document.getElementsByTagName("body");
+		
+		
+		
+		fetch("my-qyerry.php")
+		.then((response) => response.json())
+		.then(function(data){
+		
+			for (d in data ) {
+				
+				var p = document.createElement('p');
+				for (key in data[d]){
+					if (Number.isInteger(+key) || key == "id" || key == "done") {
+						continue;
+					}
+					var span = document.createElement('span');
+					span.innerText = " " + data[d][key];
+					// span.innerText = key + " - " + data[d][key];
+					p.appendChild(span);
+					document.body.appendChild(p);
+					console.log(key + " " + data[d][key]);
+		
+				}
+			}
+			// console.log(data[0]);
+		}).catch((e) => {
+			console.log(e);
+		});
+		
+		var a = "500s"
+		
+		// console.log(a === 500);
+		// console.log(Number.isInteger(+a));
+		</script>
+<script src="js/scripts.js"></script></body></html>
+
