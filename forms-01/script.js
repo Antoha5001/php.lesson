@@ -51,9 +51,9 @@
 				.then(function(data) {
 					
 					// Object.keys(data).forEach(function(e){
-					// 	console.log(e);
+						console.log(data.message);
 					// }) ;
-			
+					
 					alert(data.message);	
 			
 				}).catch((e) => console.log(e));
